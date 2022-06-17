@@ -8,7 +8,11 @@ function App() {
 	const [name, setName] = useState("Please Enter ID");
 	const submit = (inputID) => {
 		const result = employeeObj.filter((entry) => entry.employee_id === inputID);
-		setName(result[0].employee_name_thai);
+		if (result.length > 0) {
+			setName(result[0].employee_name_thai);
+		} else {
+			setName("ID does not exists");
+		}
 	};
 	return (
 		<>
