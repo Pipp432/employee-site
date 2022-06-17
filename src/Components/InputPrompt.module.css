@@ -1,0 +1,29 @@
+.inputPrompt {
+	width: 200px;
+	height: 50px;
+	margin: 0;
+	top: 25%;
+	font-size: larger;
+	border-radius: 10px;
+	border-color: rgb(255, 255, 255);
+	border-style: solid px;
+}
+.wrapper {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	margin-top: 50px;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.btn {
+	width: 100px;
+	height: 50px;
+	border-radius: 10px;
+	background-color: #56aaf9;
+	font-size: large;
+}

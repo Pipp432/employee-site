@@ -1,0 +1,21 @@
+.card {
+	background-color: rgb(107, 5, 166);
+	border-radius: 10px;
+	width: 50%;
+	height: 250px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-style: solid;
+	border-color: aliceblue;
+	border-width: 3px;
+	color: white;
+	text-align: center;
+}
+.text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -100%);
+}
